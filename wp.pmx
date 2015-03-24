@@ -1,0 +1,19 @@
+---
+name: WP
+description: wordpress for panamax
+keywords: ''
+type: Wordpress
+documentation: ''
+images:
+- name: wordpress_latest
+  source: wordpress:latest
+  type: Default
+  environment:
+  - variable: "-e WORDPRESS_DB_HOST=..."
+    value: credtest.ch4shfe4su1c.us-west-2.rds.amazonaws.com:3306
+  - variable: "-e WORDPRESS_DB_USER=..."
+    value: credtest
+  - variable: "-e WORDPRESS_DB_PASSWORD=..."
+    value: credtest
+  - variable: "-e WORDPRESS_DB_NAME=..."
+    value: credtest
