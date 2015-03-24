@@ -1,0 +1,17 @@
+---
+name: nginx
+description: nginx for panamax
+keywords: ''
+type: Default
+documentation: ''
+images:
+- name: nginx_latest
+  source: nginx:latest
+  type: Default
+  ports:
+  - host_port: '80'
+    container_port: '80'
+    proto: TCP
+  - host_port: '443'
+    container_port: '443'
+    proto: TCP
