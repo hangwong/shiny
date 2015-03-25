@@ -1,0 +1,10 @@
+---
+name: logentries
+description: ''
+keywords: ''
+type: Default
+documentation: ''
+images:
+- name: logentries_docker-logentries_latest
+  source: logentries/docker-logentries:latest
+  type: Default
